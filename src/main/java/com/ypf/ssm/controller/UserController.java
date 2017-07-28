@@ -13,6 +13,7 @@ public class UserController {
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("hello","nihao");
 //        return jsonObject.toJSONString();
+        String test = "test";
         return jsonObject;
     }
 }
